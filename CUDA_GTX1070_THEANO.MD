@@ -24,10 +24,9 @@ ln -s cpp-4.9 cpp
 #### STEPS:
 - Download cuda-8.run file
 - Download Nvidia-367.18-driver.run file
-- Remove old drivers (apt remove --purge nvidia*
+- Remove old drivers (apt remove --purge nvidia*)
 - Remove old nvidia.deb packages (just in case that's necessary?)
-- Remove my cuda folders (/usr/local/cuda*) (again, just in case)
-
+- Remove cuda folders (/usr/local/cuda*) 
 - reboot
 - run the cuda-8.run file. Decline on installing the old drivers (362?)
 - reboot
