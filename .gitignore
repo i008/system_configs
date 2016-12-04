@@ -1,0 +1,11 @@
+
+.idea/
+*.iml
+out
+gen
+.gitignore
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/system_configs.iml
+.idea/workspace.xml
