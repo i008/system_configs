@@ -90,4 +90,17 @@ THEANO DEPS:
 sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
 ```
 
+INSTALL TENSORFLOW TO ANACONDA:
+
+Just using pip install (even having conda python as the default one will not work)  
+
+- wget appropriate file from :https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html#pip-installation
+- source activate (conda env)
+
+```bash
+pip install --ignore-installed  --upgrade tensorflow_gpu-0.12.0rc0-cp27-none-linux_x86_64.whl
+```
+
+
+
 
