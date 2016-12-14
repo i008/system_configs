@@ -51,6 +51,13 @@ export LD_LIBRARY_PATH
 #### Theano config
 
 ```
+theano flags to overwrite  global settings on run (usefull when running many seperate jobs)  
+THEANO_FLAGS=floatX=float32,device=gpu0,lib.cnmem=0.8  
+in notebook:  
+%env THEANO_FLAGS=floatX=float32,device=gpu0,lib.cnmem=0.8  
+```
+
+```
 CONFIG THEANO: ~/.theanorc
 
 [global]
